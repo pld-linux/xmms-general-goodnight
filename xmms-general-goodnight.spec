@@ -2,7 +2,7 @@ Summary:	An XMMS plugin to stop playing/quit XMMS/suspend/shutdown at a given ti
 Summary(pl):	Wtyczka wy³±czaj±ca XMMS o okre¶lonej porze
 Name:		xmms-general-goodnight
 Version:	0.3.2
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://fiktiv.szgtikol.kando.hu/~folti/src/xmms-goodnight-%{version}.tar.gz
