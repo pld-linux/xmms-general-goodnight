@@ -1,5 +1,5 @@
 Summary:	An XMMS plugin to stop playing/quit XMMS/suspend/shutdown at a given time
-Summary(pl):	Wtyczka wy³±czaj±ca XMMS o okre¶lonej porze.
+Summary(pl):	Wtyczka wy³±czaj±ca XMMS o okre¶lonej porze
 Name:		xmms-general-goodnight
 Version:	0.3.2
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An XMMS plugin to stop playing/quit XMMS/suspend/shutdown at a given
-time
+time.
 
 %description -l pl
 Wtyczka wy³±czaj±ca XMMS o okre¶lonej porze.
