@@ -32,7 +32,9 @@ rm -f missing
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D libgoodnight.so $RPM_BUILD_ROOT%{xmms_general_plugindir}
+install -d $RPM_BUILD_ROOT%{xmms_general_plugindir}
+
+install libgoodnight.so $RPM_BUILD_ROOT%{xmms_general_plugindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
