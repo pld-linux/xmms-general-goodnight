@@ -8,6 +8,8 @@ Group:		X11/Applications/Sound
 Source0:	http://fiktiv.szgtikol.kando.hu/~folti/src/xmms-goodnight-%{version}.tar.gz
 # Source0-md5:	4a26d272917f034ef18525fa33af9885
 URL:		http://fiktiv.szgtikol.kando.hu/~folti/src/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel >= 1.2.0
 Requires:	xmms
